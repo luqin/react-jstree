@@ -14,7 +14,8 @@
     "jstree",
     "tree",
     "react",
-    "react-jstree"
+    "react-jstree",
+    "react-component"
   ],
   "license": "ISC",
   "bugs": {
@@ -26,7 +27,8 @@
     "react-dom": "^0.14.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
     "jstree": "^3.2.1",
-    "react-component-tools": "0.1.8"
+    "react-component-tools": "^0.1.8"
   }
 }
