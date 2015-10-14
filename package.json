@@ -1,0 +1,31 @@
+{
+  "name": "react-jstree",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luqin/react-jstree.git"
+  },
+  "keywords": [
+    "jstree",
+    "tree",
+    "react",
+    "react-jstree"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luqin/react-jstree/issues"
+  },
+  "homepage": "https://github.com/luqin/react-jstree#readme",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  },
+  "devDependencies": {
+    "jstree": "^3.2.1"
+  }
+}
