@@ -25,6 +25,8 @@
   "homepage": "https://github.com/luqin/react-jstree",
   "dependencies": {
     "babel-runtime": "^5.8.20",
+    "classnames": "^2.1.5",
+    "jstree": "^3.2.1",
     "react": "^0.14.0",
     "react-dom": "^0.14.0"
   },
@@ -37,7 +39,6 @@
     "eslint-config-airbnb": "0.1.0",
     "eslint-plugin-react": "3.4.1",
     "gulp": "^3.9.0",
-    "jstree": "^3.2.1",
     "node-sass": "3.3.2",
     "react-component-tools": "^0.1.9",
     "webpack": "1.12.2",

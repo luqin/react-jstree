@@ -1,19 +1,20 @@
 import './index.scss';
 
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-import ReactJstree from 'react-jstree';
+import TreeDemo from './app/TreeDemo';
 
 class Example extends React.Component {
 
   render() {
     return (
       <div>
-        Hello World
+        <TreeDemo/>
       </div>
     );
   }
 
 }
 
-React.render(<Example/>, document.querySelector('#app'));
+ReactDOM.render(<Example/>, document.querySelector('#app'));
