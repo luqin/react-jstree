@@ -24,11 +24,12 @@ class Tree extends React.Component {
       <div className="jstree jstree-default">
         <ul className="jstree-container-ul jstree-children" role="group">
           <li role="treeitem" aria-selected="false" aria-level={1} aria-labelledby="j7_1_anchor" id="j7_1"
-              className="jstree-node  jstree-leaf"><i className="jstree-icon jstree-ocl" role="presentation"/><a
-            className="jstree-anchor" href="#" tabIndex={-1} id="j7_1_anchor"><i
+              className="jstree-node  jstree-leaf">
+            <i className="jstree-icon jstree-ocl" role="presentation"/><a
+            className="jstree-anchor  jstree-disabled" href="#" tabIndex={-1} id="j7_1_anchor"><i
             className="jstree-icon jstree-themeicon" role="presentation"/>Node 1</a></li>
           <li role="treeitem" aria-selected="false" aria-level={1} aria-labelledby="j7_2_anchor" aria-expanded="true"
-              id="j7_2" className="jstree-node  jstree-last jstree-open" aria-busy="false"><i
+              id="j7_2" className="jstree-node jstree-loading  jstree-last jstree-open" aria-busy="false"><i
             className="jstree-icon jstree-ocl" role="presentation"/><a className="jstree-anchor" href="#" tabIndex={-1}
                                                                        id="j7_2_anchor"><i
             className="jstree-icon jstree-themeicon" role="presentation"/>Node 2</a>
