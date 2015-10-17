@@ -4,6 +4,7 @@ var taskConfig = {
 
   component: {
     name: 'react-jstree',
+    lib: './lib',
     scripts: {
       entry: './src/index.js',
       output: {

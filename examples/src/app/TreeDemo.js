@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'jstree/dist/themes/default/style.css';
-import ReactJstree from 'react-jstree';
+import Tree, {TreeNode} from 'react-jstree';
 
 class TreeDemo extends React.Component {
 
@@ -19,7 +19,24 @@ class TreeDemo extends React.Component {
 
   render() {
     return (
-      <ReactJstree>MyComponent</ReactJstree>
+      <Tree>
+        <TreeNode text="Root Node 1">
+          <TreeNode
+            text={<span>initially <b>Selected</b></span>}
+            selected
+          />
+          <TreeNode text="initially hovered" hovered/>
+          <TreeNode text="initially disabled" disabled/>
+          <TreeNode text="initially open" opened>
+            <TreeNode text="Another Node"/>
+          </TreeNode>
+          <TreeNode text="initially close" opened={false}>
+            <TreeNode text="Another Node"/>
+          </TreeNode>
+          <TreeNode text="Loading children" loading/>
+        </TreeNode>
+        <TreeNode text="Root Node 2"/>
+      </Tree>
     );
   }
 }
