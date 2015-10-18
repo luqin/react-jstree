@@ -6,6 +6,7 @@ class Tree extends React.Component {
   static propTypes = {
     prefixCls: React.PropTypes.string,
 
+    children: React.PropTypes.node,
     multiple: React.PropTypes.bool,
     selected: React.PropTypes.array,
   };

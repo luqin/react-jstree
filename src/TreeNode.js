@@ -13,6 +13,8 @@ class TreeNode extends React.Component {
     loading: React.PropTypes.bool,
     hovered: React.PropTypes.bool,
 
+    children: React.PropTypes.node,
+
     prefixCls: React.PropTypes.string,
   };
 
@@ -28,7 +30,7 @@ class TreeNode extends React.Component {
   componentDidMount() {
   }
 
-  renderCheckbox(props) {
+  renderCheckbox(props) { // eslint-disable-line
 
   }
 
@@ -55,7 +57,7 @@ class TreeNode extends React.Component {
       newChildren = null;
     }
 
-    let liCls = {
+    const liCls = {
       'jstree-node': true,
       'jstree-leaf': !newChildren,
       'jstree-open': this.props.opened,
@@ -64,7 +66,7 @@ class TreeNode extends React.Component {
       'jstree-last': false,
     };
 
-    let aCls = {
+    const aCls = {
       'jstree-anchor': true,
       'jstree-clicked': this.props.selected,
       'jstree-disabled': this.props.disabled,
