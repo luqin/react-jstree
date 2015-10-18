@@ -8,6 +8,12 @@
 
 [jstree](https://github.com/vakata/jstree) components built with [React](http://facebook.github.io/react/).
 
+## Getting Started
+
+```sh
+$ npm install                   # Install Node.js components listed in ./package.json
+$ npm start                     # Compile and launch
+```
 
 [npm-badge]: http://badge.fury.io/js/react-jstree.svg
 [npm]: http://badge.fury.io/js/react-jstree

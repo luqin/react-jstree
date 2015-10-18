@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint src",
+    "start": "gulp dev",
     "test": "eslint src"
   },
   "repository": {
