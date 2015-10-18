@@ -8,7 +8,13 @@
 
 [jstree](https://github.com/vakata/jstree) components built with [React](http://facebook.github.io/react/).
 
-## Getting Started
+## Installation
+
+```sh
+$ npm install react-jstree --save
+```
+
+## Dev
 
 ```sh
 $ npm install                   # Install Node.js components listed in ./package.json
