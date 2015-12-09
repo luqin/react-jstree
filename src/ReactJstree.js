@@ -2,7 +2,6 @@ import React from 'react';
 import deepEqual from 'deep-equal';
 
 import $ from 'jquery';
-require('bootstrap');
 require('jstree');
 require('./plugins/jstree.actions');
 
