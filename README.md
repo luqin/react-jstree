@@ -22,7 +22,7 @@ $ npm start                     # Compile and launch
 ```
 
 [npm-badge]: http://badge.fury.io/js/react-jstree.svg
-[npm]: http://badge.fury.io/js/react-jstree
+[npm]: https://www.npmjs.com/package/react-jstree
 
 [deps-badge]: https://david-dm.org/luqin/react-jstree.svg
 [deps]: https://david-dm.org/luqin/react-jstree
